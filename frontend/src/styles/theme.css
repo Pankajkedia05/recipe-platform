@@ -1,0 +1,35 @@
+﻿:root {
+  --bg: #0f172a;
+  --surface: #111827;
+  --surface-2: #1f2937;
+  --surface-3: #111827;
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+  --accent: #f97316;
+  --accent-soft: rgba(249, 115, 22, 0.12);
+  --border: rgba(148, 163, 184, 0.2);
+  --shadow: 0 30px 80px rgba(15, 23, 42, 0.35);
+}
+
+body {
+  background: radial-gradient(circle at top, rgba(249, 115, 22, 0.14), transparent 35%),
+              linear-gradient(180deg, #020617 0%, #0c1224 100%);
+  color: var(--text);
+}
+
+button, input, select, textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
